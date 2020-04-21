@@ -1,0 +1,23 @@
+header {
+  background: lightblue;
+  width: 100%;
+}
+header h1 {
+  color: white;
+}
+header nav {
+  display: flex;
+}
+@media (max-width: 992px) {
+  header nav {
+    flex-direction: column;
+  }
+}
+header nav a {
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+header nav a:hover {
+  color: black;
+}
